@@ -2,26 +2,26 @@
 //Database Constants local
 
 
-// define("DBHOST", "localhost");
-// define("DBNAME", "arif_payment_api");
-// define("DBUSER", "arif_arifuser");
-// define("DBPASS", "taktechnologiesplc@12345");
+define("DBHOST", "localhost");
+define("DBNAME", "arif_payment_api");
+define("DBUSER", "arif_arifuser");
+define("DBPASS", "taktechnologiesplc@12345");
 
 
 
 //Database server
 
-define("DBHOST", "127.0.0.1");
-define("DBNAME", "arif_payment_api");
-define("DBUSER", "root");
-define("DBPASS", "");
+// define("DBHOST", "127.0.0.1");
+// define("DBNAME", "arif_payment_api");
+// define("DBUSER", "root");
+// define("DBPASS", "");
 
 
 
 
 //Path Constants
-define("MAINURL", "http://127.0.0.1:81/arif2/");
-//define("MAINURL", "http://arif.et/");
+//define("MAINURL", "http://127.0.0.1:81/arif2/");
+define("MAINURL", "http://arif.et/");
 define("HOME", MAINURL);
 define("LESSSONURL", MAINURL."lessons.php");
 define("EXAM", MAINURL."exam.php");
