@@ -2,11 +2,11 @@
 session_start();
 require_once ("class/config.php");
 require_once ("class/db.php");
-$code = array(4577 , 3322);
+//$code = array(4577 , 3322);
 //$mobile= $_POST['phone'];
 
 function CheckCode(){
-    $code = array(4577 , 3322);
+    $code = array(4577 , 3322,6323,4765,2673,5578,9101,7388);
     $length = count($code);
     $result = false;
   for($i = 0; $i < $length; $i++){
